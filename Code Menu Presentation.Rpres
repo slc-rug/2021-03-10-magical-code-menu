@@ -1,0 +1,146 @@
+The Magical RStudio Code Menu
+========================================================
+author: Kenneth Fairchild
+date: 2/10/2021
+autosize: true
+css: "custom.css"
+
+A brief introduction
+========================================================
+left: 55%
+**Kenneth Fairchild**
+* Senior Decision Sciences Consultant at Sawtooth Software
+* Studied Statistics at university
+* Using R on and off since ~2008
+
+**Sawtooth Software**
+* Survey software specialists in all things Conjoint and MaxDiff    
+    * From our website
+        * Analyze competitive landscape
+        * Optimize product and pricing
+        * Validate messaging and advertisements
+    * From me
+        * Experimentally designed surveys with HB-MNL analysis on the back end to model hypothetical outcomes
+* Primarily a software company, but my team deals consulting for all types of quantitative market research.
+
+***
+```{r, echo=FALSE, out.width="100%", fig.cap="Example Conjoint"}
+knitr::include_graphics("Images/ConjointPage.png")
+```
+
+
+RStudio has so many buttons for you! 
+========================================================
+
+* What useful things could you learn by stopping to ask yourself, "What does that one do?"
+```{r, echo=FALSE, out.width="70%", fig.cap="RStudio's buttons"}
+knitr::include_graphics("Images/RStudio Buttons.png")
+```
+
+Today's focus: The Magical Code Menu
+========================================================
+left: 30%
+* Hopeful takeaways
+    * Make R coding a little easier
+    * Create some curiosity to what else you might be overlooking in R and RStudio
+* The code menu contains tools for writing code:
+    * More organized 
+    * More readable 
+    * Code faster
+    * More reusable 
+    * Test faster
+    * Manage better
+* Every thing you learn is one more thing you don't not know!
+
+***
+```{r, echo=FALSE, out.width="100%", fig.cap="RStudio's buttons"}
+knitr::include_graphics("Images/Code Menu.png")
+```
+
+
+
+Documentation Outline (3 ways)
+========================================================
+```{r, echo=FALSE, out.width="60%", fig.cap="RStudio's buttons"}
+knitr::include_graphics("Images/Documentation Outline.png")
+```
+
+
+See Section Examples.r
+* Insert Section ([Section Documentation](https://support.rstudio.com/hc/en-us/articles/200484568-Code-Folding-and-Sections))
+* Jump To...
+* Go To File/Function
+* Show Diagnostics
+* Go To Help
+* Go To Function Definition
+
+ROxygen Skeleton - The easy way to write package documentation
+========================================================
+This could be a talk all it's own, but the elevator pitch version is:
+* The 'Insert ROxygen Skeleton' command and syntax is an easy way to write documentation for your own R Packages.
+
+If you reuse the same code often, it is very likely worth packaging it together into an R Package. 
+
+R Packages Links: [Tutorial 1](https://tinyheero.github.io/jekyll/update/2015/07/26/making-your-first-R-package.html),  [Tutorial 2](https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/), and [an entire free book on it](https://r-pkgs.org/)
+
+```{r, echo=FALSE, out.width="50%", fig.cap="RStudio's buttons"}
+knitr::include_graphics("Images/ROxygen.png")
+```
+
+Cleaning and reusing Code
+========================================================
+Cleaning code
+* Aligning code
+* Splitting long/confusing code to multiple lines 
+
+Reusable code is all about abstracting
+* Constants to variables
+    * **1 + 2**  vs  **x + y**
+* Specific to general    
+    * 'Draw *this* bar chart' to 'Draw *any similar* bar chart'
+
+
+Useful code menu functions:
+- Reindent Lines
+- Reformat Code
+- Extract Function
+- Extract Variable
+- Rename In Scope
+
+
+Running Code
+========================================================
+Run-selected (**Ctrl-Enter**) is how I run my code 95% of the time
+
+Run from beginning to line (**Ctrl-Alt-B**) Useful for testing code incrementally
+
+Run whole file (**Ctrl-Alt-R**)
+
+
+Terminal/Source
+========================================================
+Terminal
+* Not something I use often, but useful for running system commands. 
+* [RStudio Support - Using the Terminal](https://support.rstudio.com/hc/en-us/articles/115010737148-Using-the-RStudio-Terminal)
+
+Source
+* Execute code from file
+* I usually just use the **source()** function directly
+
+What else could I learn?
+========================================================
+This was a deep dive into just one menu, and there was plenty of room to keep going.
+
+There's a look of skills to develop as an R programmer. A little bit of regular learning over a long period of time can yield huge growth.
+
+Ideas to keep learning: [Link to RStudio Cheatsheets](https://rstudio.com/resources/cheatsheets/)
+
+
+The end
+========================================================
+
+Any questions?
+---
+Contact: Kenneth Fairchild 
+- kpfairchild@gmail.com
+- https://www.linkedin.com/in/kennethfairchild/
